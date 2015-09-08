@@ -1,4 +1,4 @@
-# FAQ des PIC
+# Qualité
 
   - [Outils pratiques](#outils-pratiques)
   - [Cycle correctif](#cycle-correctif)
