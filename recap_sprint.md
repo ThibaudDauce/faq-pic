@@ -13,6 +13,7 @@ Les spécifications comportent le DSE, DSI, PTV.
 - rédaction PTV
 - après approbation du PTV, revue du plan de tests de validation (RPTV) -> émission PV de revue de PTV (PVPTV)
 - une fois les spécifications terminées, revue formelle de fin de phase de spécifications (RFFPS) -> émission PV de fin de phase de spécification (PVFPS)
+- rédaction CDR vierge et le faire approuver par le client
 
 # Conceptions
 La conception comporte le `dossier de conception` (DC) composé du `document de conception préliminaire` (DCP) et du `document de conception détaillée` (DCD), PTI, PTU. Le PTI est rédigé lors du DCP et le PTU lors du DCD.
@@ -25,7 +26,7 @@ La conception comporte le `dossier de conception` (DC) composé du `document de 
 - à la fin de la conception détaillée, revue de conception détaillée (RCD) -> émission PV de fin de phase de conception (PVFPC)
 
 # Livraison
+- lors de la vérification et validation d'un lot en interne après avoir déroulé le PTV, revue formelle de fin de phase de validation (RFFPV) -> émission d'un procès verbal de vérification et de validation (PVVV)
 - après chaque livraison, PV de livraison (PVL)
 - PV de recette (PVR)
-- lors de la vérification et validation d'un lot, revue formelle de fin de phase de validation (RFFPV) -> émission d'un procès verbal de vérification et de validation (PVVV)
 - À la fin du sprint, revue formelle de fin de sprint (RFFS) -> émission PV de fin de sprint (PVFS)
