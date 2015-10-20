@@ -25,7 +25,7 @@ La conception comporte le `dossier de conception` (DC) composé du `document de 
 - à la fin de la conception détaillée, revue de conception détaillée (RCD) -> émission PV de fin de phase de conception (PVFPC)
 
 # Livraison
+- lors de la vérification et validation d'un lot en interne, revue formelle de fin de phase de validation (RFFPV) -> émission d'un procès verbal de vérification et de validation (PVVV)
 - après chaque livraison, PV de livraison (PVL)
 - PV de recette (PVR)
-- lors de la vérification et validation d'un lot, revue formelle de fin de phase de validation (RFFPV) -> émission d'un procès verbal de vérification et de validation (PVVV)
 - À la fin du sprint, revue formelle de fin de sprint (RFFS) -> émission PV de fin de sprint (PVFS)
