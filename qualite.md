@@ -96,32 +96,36 @@
 
 ## Pour chaque lot
 
-**Penser à faire les PV de début de sprint (PVDS) et fin de sprint (PVFS).**
+  * revue formelle de démarrage de sprint (RFDS) -> émission PV début sprint (PVDS)
+  * réunion client pour définir les objectifs, tâches… (ne pas oublier le compte-rendu)
 
 #### Phase de spécifications
+  Les spécifications comportent le Document de Spécifications Externes (DSE), Document de Spécifications Internes (DSI) et le Plan de Tests de Validation (PTV).
 
   * Mettre à jour le DSE
-  * Approbation client
-  * PVDSE
+  * Approbation client du DSE
+  * Revue du dossier des spécifications externes (RDSE) -> émission PV de revue de DSE (PVDSE)
     -
   * Mettre à jour le DSI
     -
   * Mettre à jour le PTV
-  * Approbation client
-  * PVPTV
+  * Approbation client du PTV
+  * Revue du plan de tests de validation (RPTV) -> émission PV de revue de PTV (PVPTV)
     -
-  * PVFPS
+  * Une fois les spécifications terminées, revue formelle de fin de phase de spécifications (RFFPS) -> émission PV de fin de phase de spécification (PVFPS)
     -
-  * Créer un nouveau CDR vierge correspondant au lot
+  * Créer un nouveau Cahier de Recette (CDR) vierge correspondant au lot
   * Approbation client
 
 #### Phase de conception
+  La conception comporte le Document de Conception (DC) - composé du Document de Conception Préliminaire (DCP) et du Document de Conception Détaillée (DCD) - du Plan de Tests d'Intégration (PTI), du Plan de Tests Unitaires (PTU). Le PTI est rédigé lors du DCP et le PTU lors du DCD.
 
-**Tâches en parallèle :**
-
-  * Mettre à jour le DC
-  * Mettre à jour le PTI
-  * Mettre à jour le PTU
+  * Mise à jour DCP
+  * Mise à jour PTI
+  * À la fin de la conception préliminaire, revue de conception préliminaire (RCP) -> émission PV de fin de conception préliminaire (PVFCP)
+  * Mise à jour DCD
+  * Mise à jour PTU
+  * À la fin de la conception détaillée, revue de conception détaillée (RCD) -> émission PV de fin de phase de conception (PVFPC)
 
 #### Phase de développement
 
@@ -135,15 +139,17 @@
 
 #### Phase de validation interne
 
-  * Déroulement des tests prévus dans le PTV = déroulement du CDR du lot
+  * Déroulement des tests (TU et TI) prévus dans le PTV = déroulement en interne du CDR du lot
   * Conservation des journaux de résultat
-  * PVVV
+  * Revue formelle de fin de phase de validation (RFFPV) -> émission d'un procès verbal de vérification et de validation (PVVV)
 
 #### Phase de livraison
 
-  * EC récapitulant les éléments de la livraison
-  * PVL
+  * Faire l'État des Configurations (EC) récapitulant les éléments de la livraison
+  * Après la livraison, PV de livraison (PVL)
   * [Partie Recette](#recette)
+  * Une fois la recette acceptée et approuvée, PV de recette (PVR)
+  * À la fin du sprint, revue formelle de fin de sprint (RFFS) -> émission PV de fin de sprint (PVFS)
 
 ## Recette
 
