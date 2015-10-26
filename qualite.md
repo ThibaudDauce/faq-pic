@@ -22,7 +22,7 @@
   * Modification à effectuer dans un document ayant été approuvé
   * Déclenchement d'un risque
 
-#### Rediger une FFT (Fiche de Fait Technique)
+#### Rédiger une FFT (Fiche de Fait Technique)
 
   * Ajout d'un FT
   * Remplir la partie rédaction
@@ -41,7 +41,7 @@
 
   * Faire les corrections
   * Cocher la case correction terminée
-  * Spécifier la date de correction dans la case « Commentaires sur la vérification »
+  * Spécifier la date de correction dans la case "Commentaires sur la vérification"
 
 #### Vérification
 
@@ -69,7 +69,7 @@
 
   * Vérifier son emplacement et son nommage grâce au PGC en vigueur
   * **Document avec version :** V1.00
-  * **Document sans version :** mettre « création » en première ligne du suivi des modifications
+  * **Document sans version :** mettre "création" en première ligne du suivi des modifications
   * **Document soumis à approbation :** ajouter le tableau des signatures
   * Rédaction du document
   * **Document soumis à approbation :**
@@ -106,7 +106,7 @@
     -
   * Mettre à jour le DSI
     -
-  * Mettre àjour le PTV
+  * Mettre à jour le PTV
   * Approbation client
   * PVPTV
     -
@@ -131,12 +131,12 @@
   * Conservation des journaux de résultat
     -
   * Déroulement des tests d'intégration suivant le PTI
-  * Concervation des journaux de résultat
+  * Conservation des journaux de résultat
 
 #### Phase de validation interne
 
   * Déroulement des tests prévus dans le PTV = déroulement du CDR du lot
-  * Concervation des journaux de résultat
+  * Conservation des journaux de résultat
   * PVVV
 
 #### Phase de livraison
@@ -166,7 +166,7 @@ Voir le PTV chapitre 2.
 
 #### Après la recette
 
-  * Aprrobation par le client du CDR complété
+  * Approbation par le client du CDR complété
 
 #### Nota-bene
 
@@ -178,9 +178,9 @@ Si par exemple le CDR doit être modifié entre la séance de recette provisoire
 
   * Remplir le tableau de bord des indicateurs de la semaine précédente
     * La date du nouveau TB correspond à la date du lundi de la semaine concernée (la précédente)
-    * Remplir l'onglet « tableaux »
-    * Vérifier que les graphiques (onglet « graphiques ») s'affichent correctement (plage de données trop petite ?)
-    * En cas de dépassement d'un indicateur, ajouter une ligne dans l'onglet « dépassement » et créer une FFT ([voir cycle correctif](#cycle-correctif))
+    * Remplir l'onglet "tableaux"
+    * Vérifier que les graphiques (onglet "graphiques") s'affichent correctement (plage de données trop petite ?)
+    * En cas de dépassement d'un indicateur, ajouter une ligne dans l'onglet "dépassement" et créer une FFT ([voir cycle correctif](#cycle-correctif))
     * Exporter le TB au format PDF et l'archiver (FTP et PGPic)
   * Passer en revue les risques
   * En cas de modification d'un risque (création, mise à jour ou clôture)
