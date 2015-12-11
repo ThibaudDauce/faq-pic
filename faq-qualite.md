@@ -11,3 +11,10 @@ Le PQ et le PGC sont des livrables, la case doit être cochée pour qu'ils reste
 ## Pourquoi ma CTFT n'apparaît pas dans la liste des CTFT de clotûre lorsque je modifie une FOC ?
 
 Créer une réunion CTFT ne suffit pas, il faut aussi « Ajouter une CTFT » sur l'onglet « Faits techniques » de PGPic.
+
+## Conseils pour audit AFNOR
+
+  * Effectuer toutes les analyses à froid au préalable, de préférence dès la fin du mois de décembre
+  * Ne pas s'éparpiller lorsqu'un auditeur pose une question : plus on est concis, moins on s'expose à des remarques
+  * Attention à l'archivage dans PGPIC : celui-ci n'est pas immédiat, parfois quelques heures/jours sont nécessaires pour voir apparaître la mise à jour
+  
