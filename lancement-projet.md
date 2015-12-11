@@ -5,22 +5,26 @@ Ce document liste les étapes importantes lors du lancement d'un PIC. (3-4 semai
 # Lancer le projet
 
 Tâches du Responsable Qualité : 
+
   * Entrer en contact avec le tuteur Qualité
   * Contacter la direction Qualité également
   
 Tâches du Chef PIC : 
+
   * Organiser une réunion de lancement interne
   * Positionner chaque membre selon son rôle
 
 # Clarifier le sujet
 
 Prévoir une phase de formation : 
+
   * Cerner le sujet, mener accessoirement un état de l'art
   * Éventuellement prévoir quelles compétences vont devoir être acquises
   * Faire figurer les formations dans des fiches de formation, penser à mettre à jour les fiches de compétence
 
 Suite à la Réunion formelle de Démarrage : 
-  * Phase de spécifications : DSE, DSI, PTV...
+
+  * Phase de spécifications : DSE, DSI, PTV…
   * Responsable Qualité : évaluer les risques et établir le PR (Portefeuille de Risques)
 
 # Organiser l'infrastructure
