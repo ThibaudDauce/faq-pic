@@ -69,7 +69,7 @@ Il doit être possible de créer des projets et des élèves-ingénieurs en lign
 * un nom de code (un texte) ;
 * des élèves-ingénieurs.
 
-Un élève-ingénieur est une partie prenante du PIC. Une partie prenante du PIC est composé de :
+Un élève-ingénieur est une partie prenante du PIC. Une partie prenante du PIC est composée de :
 
 * un nom ;
 * un prénom ;
@@ -96,4 +96,21 @@ Il doit être possible de créer des types de documents avec un nom (un texte), 
 
 Il est également possible de créer des référentiels avec un nom (un texte).
 
-La visualisation des documents est effectuée par un tableau récapitulatif avec pour chaque référentiel, les types de documents existants et pour chaque type de document existants la liste des documents présents. Chaque ligne de document présent doit faire figurer, en plus de sa référence, les informations de rédaction, de vérification, de validation, d'archivage et si nécessaire d'approbation et de diffusion. Ces informations doivent être visuel pour rapidement déterminer où se trouve le document dans le processus de création.
+La visualisation des documents est effectuée par un tableau récapitulatif avec pour chaque référentiel, les types de documents existants et pour chaque type de document existants la liste des documents présents. Chaque ligne de document présent doit faire figurer, en plus de sa référence, les informations de rédaction, de vérification, de validation, d'archivage et si nécessaire, d'approbation et de diffusion. Ces informations doivent être visuelles pour rapidement déterminer où se trouve le document dans le processus de création. Il doit également être possible d'accéder directement au document dans l'archivage FTP.
+
+#### Temps de travail et tâches
+
+#### Réunions
+
+Le logiciel doit permettre de créer, modifier et supprimer des réunions. Une réunion est composée de :
+
+* un type (un *type de réunion*) ;
+* un début (une date et une heure) ;
+* une fin (une date et une heure) ;
+* une liste de personnes présentes (une liste de *parties prenantes*).
+
+Un type de réunion est un nom (un texte) avec une possibilité de compte-rendu (un *type de document*). Si la réunion est d'un type de réunion nécessitant un compte-rendu, elle doit pouvoir être liée à un document du bon type.
+
+La visualisation des réunions est effectuée par un tableau récapitulatif avec pour chaque semaine et pour chaque date la liste des réunions effectuées. Chaque ligne de réunion doit faire figurer le type de réunion et le temps de la réunion. Si cette réunion nécessite un compte-rendu, il est également nécessaire d'afficher le lien vers l'archivage du compte-rendu ou vers le document dans la liste des documents.
+
+### Cycle correctif
