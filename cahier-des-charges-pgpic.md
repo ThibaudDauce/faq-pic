@@ -9,11 +9,11 @@ Ce logiciel doit pouvoir être développé de manière itérative. Une grande at
 
 ## Fonctionalité
 
-Comme dit précédemment, les premières fonctionalités évoquées seront des méta-fonctionalités du logiciel permettant des mises à jour et des ajouts de fonctionalités aisément.
+Comme dit précédemment, les premières fonctionnalités évoquées seront des méta-fonctionnalités du logiciel permettant des mises à jour et des ajouts de fonctionnalités aisément.
 
 ### Gestion des sources
 
-Le logiciel a pour vocation d'être mis à jour par une majorité des personnes. Il est donc nécessaire de prévoir une gestion des sources performante. Le logiciel sera open-source sous license AGPLv3. Il devra être hébergé sur une plate-forme de partage de source en ligne utilisant Git. Concernant ces plate-formes et compte tenu des différentes fonctionalités offertes, une liste de solutions gratuites est proposée par ordre de préférence :
+Le logiciel a pour vocation d'être mis à jour par une majorité des personnes. Il est donc nécessaire de prévoir une gestion des sources performante. Le logiciel sera open-source sous license AGPLv3. Il devra être hébergé sur une plate-forme de partage de source en ligne utilisant Git. Concernant ces plate-formes et compte tenu des différentes fonctionnalités offertes, une liste de solutions gratuites est proposée par ordre de préférence :
 
 * Projet public sur une solution open-source Gitlab CE hébergée en interne à l'INSA
 * Projet public sur une solution non libre Github hébergée en ligne
@@ -27,7 +27,7 @@ Les quatre dernières solutions sont fortement découragées car la participatio
 
 ### Choix du language et du framework de développement
 
-Le choix du langage est libre mais il est fortement recommandé d'utiliser un langage maîtrisé par les étudiants ainsi que par une forte communauté, toujours dans l'objectif de favoriser les contributions au projet. Deux langages sont conseillées par ordre de préférence : PHP ou Java.
+Le choix du langage est libre mais il est fortement recommandé d'utiliser un langage maîtrisé par les étudiants ainsi que par une forte communauté, toujours dans l'objectif de favoriser les contributions au projet. Deux langages sont conseillés par ordre de préférence : PHP ou Java.
 
 L'utilisation d'un framework de développement est obligatoire. Le choix du framework de développement est libre mais il est fortement recommandé d'utiliser un framework possèdant une forte communauté et de nombreux outils facilitant le développement. Pour le PHP, les frameworks Symfony ou Laravel sont recommandés. Pour le Java, les frameworks **???** ou **???** sont recommandés.
 
@@ -45,14 +45,14 @@ Les conventions de développement seront également vérifiées de manière auto
 
 ### Déploiement
 
-Le logiciel doit pouvoir être déployer de manière continue après le passage des tests d'intégration. Ce déploiement doit être un système majoritairement automatisé réduisant au maximum les actions manuelles. Il doit être possible de déployer sereinement plusieurs fois par jour une nouvelle version du logiciel afin de bénéficier de nouvelles fonctionalités le plus rapidement possible et de limiter les mises en production massives et compliquées.
+Le logiciel doit pouvoir être déployé de manière continue après le passage des tests d'intégration. Ce déploiement doit être un système majoritairement automatisé réduisant au maximum les actions manuelles. Il doit être possible de déployer sereinement plusieurs fois par jour une nouvelle version du logiciel afin de bénéficier de nouvelles fonctionnalités le plus rapidement possible et de limiter les mises en production massives et compliquées.
 
 ### Documentation
 
 Aucune documentation externe n'est exigée, il est toujours préférable de rapprocher la documentation un maximum du code source. Les parties de logique métier difficile à comprendre seront documentés via des commentaires. Toutes les fonctions et toutes les classes seront documentées via des *Doc block*.
 
-La documentation sera généré automatiquement à partir des *Doc block* et sera accessible en ligne. Au fur et à mesure de l'évolution du projet, il sera possible d'ajouter une documentation externe expliquant via des textes simples la logique du logiciel ainsi que son guide utilisation. Nous sommes conscient des difficultés inhérentes à la mise à jour d'une documentation externe, les personnes en charge de vérifier les contributions devront être particulièrement vigilants sur ce point.
+La documentation sera générée automatiquement à partir des *Doc block* et sera accessible en ligne. Au fur et à mesure de l'évolution du projet, il sera possible d'ajouter une documentation externe expliquant via des textes simples la logique du logiciel ainsi que son guide utilisation. Nous sommes conscients des difficultés inhérentes à la mise à jour d'une documentation externe, les personnes en charge de vérifier les contributions devront être particulièrement vigilants sur ce point.
 
 ### Contributions
 
-Un guide au format Markdown doit informer les contributeurs de l'objectif du logiciel ainsi que des règles de développement. Toute contribution doit utiliser le système de *Pull Request*. Ces systèmes seront limité à une fonctionalité par *Pull Request*. Cette fonctionalité devra comporter des tests et de la documentation. La *Pull Request* devra impérativement passer les tests précédents pour être accepté dans le projet. Un comité d'anciens élèves ASI et de professeurs sera habilité à accepter les *Pull Request* et à fusionner les modifications dans le code de production. La personne en charge de la *Pull Request* devra vérifier notamment la logique métier, la justesse des tests ainsi que la documentation. En fonction du gestionnaire de source choisi (fonctionalité présente ou pas), une double vérification pourra être obligatoire. Il est conseillé d'utiliser le système de ticket du gestionnaire de source avant toute *Pull Request* afin de discuter de la nouvelle fonctionalité et des besoins réels. Les étudiants présents en PIC seront les premiers invités à commenter les idées de nouvelles fonctionalités. Le système de ticket du gestionnaire de source sera également utilisé pour tout bug trouvé dans le code en production, et une *Pull Request* sera également ouverte pour toute correction de bug (comme dit précédemment, un test devra être developpé dans la *Pull Request* pour mettre en évidence le bug).
+Un guide au format Markdown doit informer les contributeurs de l'objectif du logiciel ainsi que des règles de développement. Toute contribution doit utiliser le système de *Pull Request*. Ces systèmes seront limité à une fonctionnalité par *Pull Request*. Cette fonctionnalité devra comporter des tests et de la documentation. La *Pull Request* devra impérativement passer les tests précédents pour être accepté dans le projet. Un comité d'anciens élèves ASI et de professeurs sera habilité à accepter les *Pull Request* et à fusionner les modifications dans le code de production. La personne en charge de la *Pull Request* devra vérifier notamment la logique métier, la justesse des tests ainsi que la documentation. En fonction du gestionnaire de source choisi (fonctionnalité présente ou pas), une double vérification pourra être obligatoire. Il est conseillé d'utiliser le système de ticket du gestionnaire de source avant toute *Pull Request* afin de discuter de la nouvelle fonctionnalité et des besoins réels. Les étudiants présents en PIC seront les premiers invités à commenter les idées de nouvelles fonctionnalités. Le système de ticket du gestionnaire de source sera également utilisé pour tout bug trouvé dans le code en production, et une *Pull Request* sera également ouverte pour toute correction de bug (comme dit précédemment, un test devra être développé dans la *Pull Request* pour mettre en évidence le bug).
