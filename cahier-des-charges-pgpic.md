@@ -61,10 +61,39 @@ Un guide au format Markdown doit informer les contributeurs de l'objectif du log
 
 ### Fonctionnalités du projet
 
-#### `projet`
+#### Projet PIC
 
-La ressource principale du logiciel est le `projet`. Un projet PIC dure un an et est réalisé par des élèves-ingénieurs. Il possède un nom, un titre et des élèves-ingénieurs.
+Il doit être possible de créer des projets et des élèves-ingénieurs en ligne de commande ou via une interface de super-admin. Un projet est composé de :
 
-#### `eleve`
+* un titre (un texte) ;
+* un nom de code (un texte) ;
+* des élèves-ingénieurs.
 
-Un élève possède un nom, un prénom. Il doit être capable de se connecter au logiciel via des identifiants.
+Un élève-ingénieur est une partie prenante du PIC. Une partie prenante du PIC est composé de :
+
+* un nom ;
+* un prénom ;
+* une adresse mail ;
+
+#### Documents
+
+Il doit être possible de créer, de mettre à jour et de supprimer des documents sur le logiciel. Un document possède :
+
+* un type (un *type de document*) ;
+* un référentiel (un *référentiel*);
+* une référence (un texte);
+* un rédacteur (une partie prenante du PIC);
+* une date de rédaction (une date);
+* un vérificateur (une partie prenante du PIC) ;
+* une date de vérification (une date) ;
+* un validateur (une partie prenante du PIC) ;
+* une date de validation (une date) ;
+* un archivage (un booléen).
+
+Si ce document nécessite une approbation, il possède un approbateur (une partie prenante du PIC) et une date d'approbation (une date). Si ce document nécessite une diffusion, il possède une date de diffusion (une date).
+
+Il doit être possible de créer des types de documents avec un nom (un texte), une information sur la nécessité d'approbation (un booléen) et de diffusion (un booléen). Cette ressource doit être extensible pour ajouter des fonctionnalités comme la génération automatique des titres des documents ou un référentiel par défaut.
+
+Il est également possible de créer des référentiels avec un nom (un texte).
+
+La visualisation des documents est effectuée par un tableau récapitulatif avec pour chaque référentiel, les types de documents existants et pour chaque type de document existants la liste des documents présents. Chaque ligne de document présent doit faire figurer, en plus de sa référence, les informations de rédaction, de vérification, de validation, d'archivage et si nécessaire d'approbation et de diffusion. Ces informations doivent être visuel pour rapidement déterminer où se trouve le document dans le processus de création.
